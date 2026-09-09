@@ -13,14 +13,6 @@
 ### 1) GitHub 저장소 페이지 URL을 직접 넣지 말 것
 G7의 수동 설치는 보통 저장소 메인 페이지 URL이 아니라 ZIP 아카이브 URL 또는 로컬 클론 디렉터리로 설치해야 합니다.
 
-정상 URL:
-
-```text
-https://github.com/keidischoi/sirsoft-sales_stats/archive/refs/heads/main.zip
-```
-
-잘못된 URL:
-
 ```text
 https://github.com/keidischoi/sirsoft-sales_stats
 ```
