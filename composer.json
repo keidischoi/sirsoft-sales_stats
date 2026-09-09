@@ -1,0 +1,15 @@
+{
+    "name": "modules/sirsoft-sales_stats",
+    "description": "Sales statistics extension for sirsoft-ecommerce",
+    "type": "library",
+    "version": "1.4.1",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Sirsoft\\SalesStats\\": "src/"
+        }
+    }
+}

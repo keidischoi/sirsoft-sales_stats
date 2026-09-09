@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "routes": [
+    {
+      "path": "*/admin/ecommerce/sales-stats",
+      "layout": "admin_sales_stats",
+      "auth_required": true,
+      "meta": {
+        "title": "판매 통계",
+        "breadcrumb": [
+          { "label": "이커머스", "path": "/admin/ecommerce/products" },
+          { "label": "판매 통계" }
+        ]
+      }
+    }
+  ]
+}
